@@ -4,6 +4,9 @@ const pitchName = "E";
 let octave = 4;
 let fullNote = pitchName + octave;
 console.log("Exercise 2: fullNote is " + fullNote);
+octave = octave + 1;
+fullNote = pitchName + octave;
+console.log("Exercise 2: fullNote is " + fullNote)
 
 // TODO 2a: raise the octave by one: octave = octave + 1;
 // TODO 2b: log fullNote again. Predict first: has it changed?
